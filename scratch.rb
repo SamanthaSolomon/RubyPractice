@@ -23,4 +23,29 @@
 # puts ("but didn't like being " + character_age + ".")
 
 #Data Types
+# string = "Samantha"
+# integer_number = 123
+# floating_point_numer = 5.6 #decimals
+# boolean = true
+# doesnt_have_a_value = nil 
+
+# #using strings and string methods
+
+# phrase = "learning ruby \"today\"\nlets put this on a new line    "
+# puts phrase
+
+# puts phrase.upcase()
+# puts phrase.downcase()
+# puts phrase.strip() #remove empty spaces
+# puts phrase.length() #includes spaces
+# puts phrase.strip.length()
+# puts phrase.include? "lets" #boolean value
+# puts phrase[0] #access character at index
+# puts phrase [0, 3] #access characters at index range - starting point, number of indicies to include
+# puts phrase.index("g")#output the index position of this character
+
+# #string methods together add to string
+# puts "hank".upcase()
+
+#
 
