@@ -47,5 +47,35 @@
 # #string methods together add to string
 # puts "hank".upcase()
 
-#
+#Math and Numbers
+
+#2 raised to the 3rd power
+# puts 2**3
+
+#modulous, divide and then remainder
+# puts 10 % 3
+
+# num = 20
+# puts num
+
+# #must convert to string to concactinate
+# puts ("my fav num " + num.to_s)
+
+#methods
+# num = 20.687
+# puts num.abs() #absolute number
+# puts num.round() #rounds decimals
+# #ceiling and floor function
+# puts num.ceil()
+# puts num.floor()
+
+# #math class
+# puts Math.sqrt(36) #square root
+# puts Math.log(4) #logarythmic method
+
+#floating point numbers (floats aka decimals) and integers (whole numbers)
+#if using two integers always get integer back, if using float and integer - always get float back, if using two floats - always get float back
+puts 10 / 7
+puts 10 / 7.0
+puts 10.0 / 7.0
 
